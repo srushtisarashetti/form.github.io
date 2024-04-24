@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standard Form</title>
+</head>
+<body>
+    <form action="message.html">
+        <fieldset>
+            <legend>Personal Deatils</legend>
+            <label for="name ">name</label>
+            <input type="text" id="name"> <br><br>
+
+            <label for="name">DOB</label>
+            <input type=" text" id="name"> <br><br>
+
+            <label for="date">Email</label>
+            <input type="text" id="date"> <br><br>
+         </fieldset>
+         <fieldset>
+            <legend>Educational Details</legend>
+            
+            <label for="">Department:</label><br>
+            
+            <input type="radio" id="cs" name="dept"> 
+            <label for="cs">CSS</label>
+            <input type="radio" id="ec" name="dept"> 
+            <label for="ec">EC</label>
+            <input type="radio" id="civil" name="dept"> 
+            <label for="civil">CIVIL</label>
+            <input type="radio" id="mech" name="dept"> 
+            <label for="mech">MECH</label>
+            <br><br>
+            <label for="">Year of graduation</label>
+            <input list="year">
+            <datalist id="year">
+                <option>2019</option>
+                <option>2020</option>
+                <option>2022</option>
+                <option>2023</option>
+                </datalist>
+                <br><br>
+
+                <label for="">Skills:</label><br>
+                <input type="checkbox" id="java" >
+                <label for="java">JAVA</label>
+                <input type="checkbox"  id="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="sql">
+                <label for="sql">SQL</label>
+                 </fieldset>
+                 <br>
+                 <input type="submit" >
+
+                </form>
+    
+</body>
+</html>
